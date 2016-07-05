@@ -19,13 +19,10 @@
        
         
         <%
-            String userid = session.getAttribute("userId").toString(); 
             String user_name = request.getParameter("username").toString().length() != 0 ? request.getParameter("username").toString() : "Not Provided";
             String email = request.getParameter("email").toString().length() != 0 ? request.getParameter("email").toString() : "Not Provided";
             String first_name = request.getParameter("firstname").toString().length() != 0 ? request.getParameter("firstname").toString() : "Not Provided";
             String lastname = request.getParameter("lastname").toString().length() != 0 ? request.getParameter("lastname").toString() : "Not Provided";
-
-
         %>
    
     <div class="list-group">
