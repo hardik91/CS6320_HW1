@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2016, 11:31:01 AM
+    Author     : nishi
+*/
+
+.bs-example-form .input-group {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.bs-example-form, .page-header , .list-group{
+    padding-left:25px;
+}
+
+.list-group{
+    max-width: 400px;
+}
